@@ -1,0 +1,25 @@
+{
+  "name": "coffeestyletailwindcss",
+  "version": "1.0.0",
+  "description": "tuanpm",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phamminhtuan1999/CoffeeStyleTailwindCSS.git"
+  },
+  "keywords": [],
+  "author": "tuanpm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phamminhtuan1999/CoffeeStyleTailwindCSS/issues"
+  },
+  "homepage": "https://github.com/phamminhtuan1999/CoffeeStyleTailwindCSS#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "tailwindcss": "^3.0.24"
+  }
+}
